@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Ignacio</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form id="registroFormulario">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required maxlength="20" minlength="3">
+        <br>
+        <br>
+        <label>Apellido:</label>
+        <input type="text" name="apellido" required maxlength="50">
+        <br>
+        <br>
+        <label>Contraseña:</label>
+        <input type="password" name="clave" placeholder="Requiere 8 digitos" required maxlength="8"> 
+        <br>
+        <br>
+        <label>Edad:</label>
+        <input type="text" name="edad">
+        <br>
+        <br>
+        <label>Telefono:</label>
+        <select id="codigoPais" name="codigoPais" required>
+            <option value="" disabled selected>Código</option>
+            <option value="Mexico"> +52 (Mexico)</option>
+            <option value="Estados Unidos"> +1 (Estados Unidos)</option>
+            <option value="Belice"> +501 (Belice)</option>
+            <option value="Guatemala"> +502 (Guatemala)</option>
+            <option value="El Salvador"> +503 (El Salvador)</option>
+            <option value="Honduras"> +504 (Honduras)</option>
+            <option value="Nicaragua"> +505 (Nicaragua)</option>
+            <option value="Costa Rica"> +506 (Costa Rica)</option>
+            <option value="Panamá"> +507 (Panamá)</option>
+            <option value="Perú"> +51 (Perú)</option>
+            <option value="Argentina"> +54 (Argentina)</option>
+            <option value="Brasil"> +55 (Brasil)</option>
+            <option value="Chile"> +56 (Chile)</option>
+            <option value="Colombia"> +57 (Colombia)</option>
+            <option value="Venezuela"> +58 (Venezuela)</option>
+            <option value="Bolivia"> +591 (Bolivia)</option>
+            <option value="Guyana"> +592 (Guyana)</option>
+            <option value="Ecuador"> +593 (Ecuador)</option>
+            <option value="Guayana Francesa"> +594 (Guayana Francesa)</option>
+            <option value="Paraguay"> +595 (Paraguay)</option>
+            <option value="Surinam"> +597 (Surinam)</option>
+            <option value="Uruguay"> +598 (Uruguay)</option>
+            </select>
+            <input type="tel" id="numeroTelefono" name="numeroTelefono" pattern="[0-9]{10}" maxlength="10" placeholder="Número (10 dígitos)" required>
+            <br>
+            <br>
+            <label>Género:</label>
+            <input type="radio" id="generoMasculino" name="genero" value="masculino" required>masculino   
+            <input type="radio" id="generoFemenino" name="genero" value="femenino">femenino
+            <br>
+            <br>
+        <label>Lenguajes de programación que maneja:</label>
+	    <input type="checkbox" id="html" name="lenguajes" value="html">HTML      
+        <input type="checkbox" id="javascript" name="lenguajes" value="javascript">javascript         
+        <input type="checkbox" id="python" name="lenguajes" value="python">python            
+        <input type="checkbox" id="java" name="lenguajes" value="java">java            
+        <input type="checkbox" id="csharp" name="lenguajes" value="csharp">csharp
+        <input type="checkbox" id="CSC" name="lenguajes" value="CSC">CSC  
+        <input type="checkbox" id="basic" name="lenguajes" value="basic">basic             
+        <input type="checkbox" id="swift" name="lenguajes" value="swift">swift
+        <input type="checkbox" id="kotlin" name="lenguajes" value="kotlin">kotlin
+        <br>
+        <br>
+        <label>Estado de la República:</label>
+                    <select id="estado" name="estado" required>
+                        <option value="" disabled selected>Selecciona un estado</option>
+                        <option value="Aguascalientes"> Aguascalientes</option>
+                        <option value="Baja California"> Baja California</option>
+                        <option value="Baja California Sur"> Baja California Sur</option>
+                        <option value="Campeche"> Campeche</option>
+                        <option value="Chiapas"> Chiapas</option>
+                        <option value="Chihuahua"> Chihuahua</option>
+                        <option value="Ciudad de México"> Ciudad de México</option>
+                        <option value="Coahuila"> Coahuila</option>
+                        <option value="Colima"> Colima</option>
+                        <option value="Durango"> Durango</option>
+                        <option value="Estado de México"> Estado de México</option>
+                        <option value="Guanajuato"> Guanajuato</option>
+                        <option value="Guerrero"> Guerrero</option>
+                        <option value="Hidalgo"> Hidalgo</option>
+                        <option value="Jalisco"> Jalisco</option>
+                        <option value="Michoacán"> Michoacán</option>
+                        <option value="Morelos"> Morelos</option>
+                        <option value="Nayarit"> Nayarit</option>
+                        <option value="Nuevo León"> Nuevo León</option>
+                        <option value="Oaxaca"> Oaxaca</option>
+                        <option value="Puebla"> Puebla</option>
+                        <option value="Querétaro"> Querétaro</option>
+                        <option value="Quintana Roo"> Quintana Roo</option>
+                        <option value="San Luis Potosí"> San Luis Potosí</option>
+                        <option value="Sinaloa"> Sinaloa</option>
+                        <option value="Sonora"> Sonora</option>
+                        <option value="Tabasco"> Tabasco</option>
+                        <option value="Tamaulipas"> Tamaulipas</option>
+                        <option value="Tlaxcala"> Tlaxcala</option>
+                        <option value="Veracruz"> Veracruz</option>
+                        <option value="Yucatán"> Yucatán</option>
+                        <option value="Zacatecas"> Zacatecas</option>
+                       </select>	
+                       <br>
+                       <br>
+                       <label>Deja tu comentario:</label>
+                       <textarea name="comentario" rows="10" cols="30" maxlength="120"></textarea>
+                       <br>
+                       <br>
+                       <label>Enviar</label>
+                       <input type="submit" value="Enviar">
+                       <br>
+                       <br>
+                       
+                               
+        
+    </form>
+</body>
+</html>
