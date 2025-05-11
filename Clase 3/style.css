@@ -1,0 +1,87 @@
+/* Add styles here */
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #0000cc;
+    color: white;
+    padding: 2.4px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 32px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+/* Secciones principales */
+section {
+    background-color: white;
+    padding: 24px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+   
+}
+
+h2 {
+    color: #0066cc;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 8px;
+}
+
+/* Listas */
+ul, ol {
+    padding-left: 32px;
+    margin-bottom: 16px;
+    color:red;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Enlaces */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+
+/* Imagen */
+.imagen-principal {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 16px auto;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    color: #7884b6;
+    margin-top: 8 px;
+}
+
+/* Párrafos */
+p {
+    margin-bottom: 16px;
+}
