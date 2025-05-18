@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.calculadora-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+
+.inputs-container {
+    margin-bottom: 20px;
+}
+
+
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.botones-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 12px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; /* La propiedad CSS cursor establece el cursor del ratón, si lo hay, 
+                        para que se muestre cuando el puntero se encuentre sobre un elemento.*/
+   transition: background-color 0.5s, transform 0.3s; 
+
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn-sumar {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-restar {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-multiplicar {
+    background-color: #2196F3;
+    color: white;
+}
+
+.btn-dividir {
+    background-color: #FF9800;
+    color: white;
+}
+
+.resultado-container {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+#resultado {
+    font-size: 18px;
+    font-weight: 500;
+    color: #141414;
+    margin: 0;
+}

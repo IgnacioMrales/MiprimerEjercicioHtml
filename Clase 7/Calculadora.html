@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Calculadora.css">
+    <title>Calculadora HTML + CSS + JS</title>
+</head>
+<body>
+    <div class="calculadora-container">
+        <h1>Calculadora</h1>
+        
+        <div class="inputs-container">
+            <input type="number" id="numero1" placeholder="Primer número">
+            <input type="number" id="numero2" placeholder="Segundo número">
+        </div>
+
+        <div class="botones-container">
+            <button onclick="sumar()" class="btn btn-sumar">+</button>
+            <button onclick="resta()" class="btn btn-restar">-</button>
+            <button onclick="multiplicar()" class="btn btn-multiplicar">*</button>
+            <button onclick="dividir()" class="btn btn-dividir">/</button>
+        </div>
+
+        <div class="resultado-container">
+            <p id="resultado">El resultado aparecerá aquí</p>
+        </div>
+    </div>
+
+    <script src="Calculadora.js"></script>
+</body>
+</html>
